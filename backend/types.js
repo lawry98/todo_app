@@ -6,8 +6,6 @@ const createType = zod.object({
     description: zod.string()
 });
 
-const updateType = zod.object({
-    id: zod.string(),
-});
+const updateType = zod.string();
 
 module.exports={createType : createType,updateType: updateType};
